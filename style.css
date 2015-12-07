@@ -1,0 +1,90 @@
+*{margin: 0;
+ padding: 0}
+
+ *,
+*:before,
+*:after {box-sizing: border-box;}
+
+ .wrapper 
+ {
+ 	max-width: 1000px;
+ 	min-height: 100vh;
+ 	border: 3px solid #47A3DA;
+ 	margin: 30px auto;
+ 	color:#47A3DA;
+ 	font-family: sans-serif;
+ 	padding-bottom: 40px
+
+ }
+
+.item_
+ {
+ 	max-width: 280px;
+ 	padding: 30px;
+ 	text-align: center;
+ 	box-sizing:border-box;
+ 	margin-left: 20px;
+ 	margin-right: 20px;
+ }
+
+.line1, .line2, .line3, .line4
+{	margin-top: 20px;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+a 
+{
+	padding-top: 20px;
+	font-size: 30px;
+	font-width: bold;
+	text-decoration: none;
+	color:#47A3DA;
+}
+
+ .description 
+{
+	text-align: center;
+	display:table-cell;
+	box-sizing:border-box;
+	height: auto;
+	vertical-align: top;
+	
+}
+
+ h1 
+ {
+ 	margin: 30px 20px;
+ 	border-bottom: 3px solid #47A3DA; 
+ 	padding-bottom: 20px; 
+ 	font-size: 25px;
+ }
+
+ .add 
+ {
+ 	background:#47A3DA;
+ 	display: inline-block;
+ 	color: #FFFFFF;
+ 	font-size: 16px;
+ 	padding: 10px;
+ 	width: 150px;
+ 	height: 35px;
+ 	border-radius: 3px;
+ 	margin-left: 100px;
+ 	margin-right: 60px;
+ 	text-align: center;
+ 	
+ }
+
+.price 
+{
+	font-size: 25px;
+ 	color: #CECECE;
+ 	margin: 20px;
+ 	vertical-align:middle;
+
+ }
+
+
+.add::before {content: " + "
+ }
